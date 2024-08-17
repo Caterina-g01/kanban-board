@@ -1,0 +1,29 @@
+.boardCard {
+
+&__container {
+    width: 22.9vw;
+    height: 300px;
+    background-color: $mainGrey;
+    border-radius: 10px;
+    position: relative;
+    padding: 12px;
+
+    overflow: hidden;
+}
+&__title {
+
+}
+
+&__content {
+
+}
+
+&__tasks {
+
+}
+&__button {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+}

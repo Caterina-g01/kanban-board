@@ -1,0 +1,29 @@
+.mainSection__container {
+    width: 100%;
+    padding: 20px 20px 20px 20px;
+    min-height: 40vw;
+    background-color: $mainBlue;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
+}
+
+.custom__title {
+    padding: 10px;
+    @include fontTitleMain();
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.blue {
+    background-color: rgb(182, 233, 255);
+}
+.pink {
+    background-color: rgb(255, 227, 238);
+}
+.yellow {
+    background-color: rgb(255, 255, 191);
+}
+.green {
+    background-color: rgb(201, 255, 201);
+}
