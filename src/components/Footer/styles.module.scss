@@ -15,6 +15,9 @@
     display: flex;
     justify-content: space-between;
     width: 25vw;
+    @media (max-width: 1024px){
+        width: 40vw;
+    }
 }
 &__activeTasks {
 }

@@ -2,11 +2,24 @@
     width: 100%;
     padding: 20px 20px 20px 20px;
     min-height: 40vw;
+    height: auto;
+    overflow: auto;
     background-color: $mainBlue;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     height: calc(100vh - 100px);
+    @media (max-width: 1024px){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+   
+    }
+    @media (max-width: 650px){
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
 }
 
 .custom__title {

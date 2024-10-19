@@ -1,0 +1,29 @@
+.dropdown{
+    
+    &__container {
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        z-index: 1000;
+        width: 134px;
+        height: 60px;
+        background-color: $mainWhite;
+        @include fontTitleUserMenu();
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    }
+
+    &__option {
+        padding: 7px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: $mainGrey;
+            border-radius: 5px;
+        }
+    }
+
+}
+

@@ -22,3 +22,8 @@
   @include Roboto(18px, 400, 120%);
   color: $mainWhite;
 }
+
+@mixin fontTitleUserMenu() {
+  @include Roboto(14px, 400, 120%);
+  color: $mainBlack;
+}

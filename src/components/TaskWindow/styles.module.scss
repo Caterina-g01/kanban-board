@@ -1,0 +1,55 @@
+.taskWindow{
+
+    &__overlay {
+        padding-top: 40px;
+        margin: 0 auto;
+        width: 100%;
+        background-color: $mainBlue;
+        height: 900px;
+}
+
+&__textarea {
+    resize: none;
+    height: 700px;
+    width: 97%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    align-self: center;
+    border-radius: 5px;
+    padding: 10px;
+    @include fontTitleMain();
+}
+
+&__taskName {
+    @include fontTitleHeader();
+    margin-bottom: 20px;
+    margin-left: 1.5vw;
+
+}
+&__btns {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 20%;
+    justify-content: space-between;
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+}
+&__saveBtn {
+    @include fontTitleMain();
+    background-color: $mainGrey;
+
+    &:hover {
+        background-color: $mainWhite;
+    }
+}
+&__closeBtn {
+    @include fontTitleMain();
+    background-color: $mainGrey;
+
+    &:hover {
+       
+        background-color: $mainWhite;
+    }
+}
+}

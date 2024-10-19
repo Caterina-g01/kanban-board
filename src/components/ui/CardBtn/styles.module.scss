@@ -1,12 +1,8 @@
-.cardButton {
+.cardBtn__btn {
     width: 110px;
     border-radius: 5px;
     padding: 5px;
     background-color: transparent;
-    @include fontTitleMain();
     cursor: pointer;
-
-    &:hover {
-        background-color: $mainWhite;
-    }
+    border: 2px solid $mainBlue;
 }

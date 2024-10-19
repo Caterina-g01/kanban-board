@@ -1,0 +1,38 @@
+.select {
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    color: #000000;
+    margin-bottom: 15px;
+    position: relative;
+    height: auto;
+    @include fontTitleMain();
+}
+
+.option, .shown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 5px;
+    cursor: pointer;
+    background-color: #d8d8d8;
+}
+
+.shown {
+    background-color: #ffffff;
+    justify-content: space-between; 
+    padding-right: 20px; 
+}
+
+.arrowIcon {
+    margin-left: auto; 
+    font-size: 11px; 
+    color: #d8d8d8;
+}
+
+.option:hover {
+    background-color: #cdcdcd; 
+}
